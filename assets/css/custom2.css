@@ -1,0 +1,56 @@
+.close {
+  font-size: 1.5rem;
+}
+
+.col-12 img {
+  opacity: 1;
+  cursor: pointer;
+  margin: 2rem;
+  width: 100%;
+}
+
+.col-12 img:hover {
+  opacity: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.titleinfo {
+  color: red;
+  font-size: 26px;
+  text-align: center;
+}
+
+.title_cards {
+  text-align: center;
+  color: #282828;
+  font-size: 22px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.title_main {
+  margin-top: 10px !important;
+}
+
+/* Default styling for all screens */
+.clients_section {
+  /* Your other styles here */
+  margin-top: 150px;
+}
+
+/* Media query for screens with a maximum width of 767px (typical for mobile screens) */
+@media screen and (max-width: 767px) {
+  .clients_section {
+    margin-top: 50px;
+  }
+}
+
+/* .client-saying {
+  text-align: center;
+} */
+
+@media screen and (max-width: 767px) {
+  .client-saying {
+    text-align: center;
+  }
+}
